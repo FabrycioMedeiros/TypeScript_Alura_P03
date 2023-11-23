@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "moduleResolution": "node",
         "outDir": "app/dist/js",
         "target": "ES6",
         "noEmitOnError": true,
