@@ -41,3 +41,7 @@ npm run start
 
 ## Módulo 01
 - Neste módulo, foram abordados assuntos referentes a:
+* Introdução e estrutura do projeto
+* Requisitos não funcionais
+* Decorator de método
+* Logar tempo de execução com decorator
