@@ -53,3 +53,11 @@ npm run start
 * Ordem de execução dos decorators
 * Simplificação no design de decorators
 * Portabilidade de funcionalidade antiga para decorators
+
+## Módulo 03
+- Neste módulo, foram abordados assuntos referentes a:
+* Como evitar código duplicado
+* Decorator de propriedade
+* Criação dinâmica de getters
+* O uso de Object.defineProperty
+* Cache de decorators
