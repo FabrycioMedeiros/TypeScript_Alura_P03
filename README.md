@@ -45,3 +45,11 @@ npm run start
 * Requisitos não funcionais
 * Decorator de método
 * Logar tempo de execução com decorator
+
+## Módulo 02
+- Neste módulo, foram abordados assuntos referentes a:
+* Decorator com parâmetro
+* Criação de um decorator de inspeção
+* Ordem de execução dos decorators
+* Simplificação no design de decorators
+* Portabilidade de funcionalidade antiga para decorators
