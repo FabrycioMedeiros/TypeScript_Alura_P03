@@ -61,3 +61,10 @@ npm run start
 * Criação dinâmica de getters
 * O uso de Object.defineProperty
 * Cache de decorators
+
+## Módulo 04
+- Neste módulo, foram abordados assuntos referentes a:
+* API externa
+* Consumindo API externa
+* Definindo uma interface para a API
+* Isolando o acesso à API em um serviço
