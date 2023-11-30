@@ -1,4 +1,7 @@
-export class Negociacao {
+import { Modelo } from "../interfaces/modelo.js";
+
+// extends é utilizado quando erdamos de uma classe, implements é quando indicamos que uma classe está implementando uma ou mais interfaces
+export class Negociacao implements Modelo<Negociacao> {
     constructor(
         private _data: Date, 
         public readonly quantidade: number, 
@@ -28,5 +31,11 @@ export class Negociacao {
         Quantidade: ${this.quantidade},
         Valor: ${this.valor}
       `;
+    }
+
+    public ehIgual(negociacao: Negociacao): boolean {
+        return this.data.getDate() === negociacao.data.getDate()
+            && this.data.getMonth() === negociacao.data.getMonth()
+            && this.data.getFullYear() === negociacao.data.getFullYear() 
     }
 }
